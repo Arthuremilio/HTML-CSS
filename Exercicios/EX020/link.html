@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkgreen;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: blue;
+        }
+        a::after{
+            content: ' [LINK]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> Clique no link e acesse meu perfil do <a href="https://www.facebook.com/arthur.fonseca95/" target="_blank" rel="noopener external">Facebook</a> </li>
+        <li>Clique no link e acesse meu perfil do <a href="https://www.instagram.com/arthur.ecf/" rel="noopener external" target="_blank">Instagram</a> </li>
+        <li>Clique no link e acesse meu perfil do <a href="https://www.linkedin.com/in/arthur-emilio-lopes-fonseca-343117223/" target="_blank" rel="noopener external">Linkedin</a> </li>
+        <li>Clique no link e acesse meu perfil do <a href="https://github.com/Arthuremilio" target="_blank" rel="noopener external"> Github</a> </li>
+    </ul>
+</body>
+</html>
